@@ -7,7 +7,7 @@
 * [字符串处理函数](http://php.net/manual/zh/ref.strings.php)  [区别 mb_ 系列函数](http://php.net/manual/zh/book.mbstring.php)
 * [& 引用，结合案例分析](https://secure.php.net/manual/zh/language.references.php)
 * [== 与 === 区别](https://stackoverflow.com/questions/80646/how-do-the-php-equality-double-equals-and-identity-triple-equals-comp)
-* [isset 与 empty 区别](https://stackoverflow.com/questions/1219542/in-where-shall-i-use-isset-and-empty)
+* [isset 与 empty 区别](https://blog.csdn.net/jiaobuchong/article/details/41807011)
 * [全部魔术函数理解](http://php.net/manual/zh/language.oop5.magic.php)
 * [static、$this、self 区别](https://stackoverflow.com/questions/4718808/php-can-static-replace-self)
 * private、protected、public、final 区别
