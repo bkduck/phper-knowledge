@@ -9,6 +9,7 @@
 * [== 与 === 区别](https://stackoverflow.com/questions/80646/how-do-the-php-equality-double-equals-and-identity-triple-equals-comp)
 * [isset 与 empty 区别](https://blog.csdn.net/jiaobuchong/article/details/41807011)
 * [全部魔术函数理解](http://php.net/manual/zh/language.oop5.magic.php)
+* [超全局变量 魔术变量 魔术函数总结](http://www.cnblogs.com/wangxin-king/p/5669336.html)
 * [static、$this、self 区别](https://stackoverflow.com/questions/4718808/php-can-static-replace-self)
 * private、protected、public、final 区别
 * OOP 思想
@@ -287,8 +288,8 @@
 * IPv4 与 v6 区别
 
 ## 网络编程篇
-
-* TCP 三次握手流程
+ 
+* TCP 三次握手流程 [传送门](https://www.cnblogs.com/buxiangxin/p/8336022.html)
 * TCP、UDP 区别，分别适用场景(传送门)[https://blog.csdn.net/u013777351/article/details/49226101]
 * 有什么办法能保证 UDP 高可用性(了解)
 * TCP 粘包如何解决？
