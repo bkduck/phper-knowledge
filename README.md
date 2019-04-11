@@ -61,6 +61,17 @@
 * Xhprof 、Xdebug 性能调试工具使用
 * [索引数组 `[1, 2]` 与关联数组 `['k1'=>1, 'k2'=>2]` 有什么区别](https://www.onmpw.com/m/view.php?aid=238)
 * [缓存的使用方式、场景](https://zhuanlan.zhihu.com/p/40091810)
+* [foreach 引用问题](https://www.cnblogs.com/eleven24/p/7422170.html?utm_source=debugrun&utm_medium=referral) 
+```
+   $a = [1,2,3];
+   foreach ($a as $v){}
+   var_dump($a); // 123
+   foreach ($a as &$v){}
+   var_dump($a); //123
+   # unset($v); 或换了$v
+   foreach ($a as $v){}
+   var_dump($a); // 122
+```
 
 ## 实践篇
 * 给定二维数组，根据某个字段排序 [array_multisort() 多维数组排序](https://www.cnblogs.com/Dong-Ge/p/5583753.html)
@@ -208,7 +219,7 @@
     * 内存占用
 
 ## 设计模式
-* 单例模式（重点）
+* 单例模式（重点）(传送门)[https://segmentfault.com/a/1190000006062259]
 * 工厂模式（重点）
 * 观察者模式（重点）(传送门)[https://segmentfault.com/a/1190000007531552]
 * 依赖注入（重点）(传送门)[https://segmentfault.com/a/1190000010846788]
