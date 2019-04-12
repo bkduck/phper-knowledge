@@ -302,6 +302,7 @@
  
 * TCP 三次握手流程 [传送门](https://www.cnblogs.com/buxiangxin/p/8336022.html)
 * TCP、UDP 区别，分别适用场景(传送门)[https://blog.csdn.net/u013777351/article/details/49226101]
+* [OSI七层协议](https://blog.csdn.net/yaopeng_2005/article/details/7064869)
 * 有什么办法能保证 UDP 高可用性(了解)
 * TCP 粘包如何解决？
 * 为什么需要心跳？
