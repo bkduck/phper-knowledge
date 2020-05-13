@@ -10,7 +10,7 @@
 * [isset 与 empty 区别](https://blog.csdn.net/jiaobuchong/article/details/41807011)
 * [全部魔术函数理解](http://php.net/manual/zh/language.oop5.magic.php)
 * [超全局变量 魔术变量 魔术函数总结](http://www.cnblogs.com/wangxin-king/p/5669336.html)
-* [static、$this、self 区别](https://stackoverflow.com/questions/4718808/php-can-static-replace-self)
+* [static、$this、self 区别](https://juejin.im/post/5af11926f265da0b9a69e80f)
 * private、protected、public、final 区别
 * OOP 思想
 * 抽象类、接口 分别使用场景
