@@ -11,7 +11,7 @@
 * [全部魔术函数理解](http://php.net/manual/zh/language.oop5.magic.php)
 * [超全局变量 魔术变量 魔术函数总结](http://www.cnblogs.com/wangxin-king/p/5669336.html)
 * [static、$this、self 区别](https://juejin.im/post/5af11926f265da0b9a69e80f)
-* private、protected、public、final 区别
+* private、protected、public、final 区别 ```public实例能调用 protected实例不能直接调用 final不能继承和重写```
 * OOP 思想
 * 抽象类、接口 分别使用场景
 * [Trait 是什么东西](http://php.net/manual/zh/language.oop5.traits.php)
