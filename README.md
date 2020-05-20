@@ -26,7 +26,9 @@
 ## 进阶篇
 * Autoload、Composer 原理 [PSR-4](https://laravel-china.org/topics/2081/psr-specification-psr-4-automatic-loading-specification) 、[原理](https://segmentfault.com/a/1190000014948542)
 * Session 共享、存活时间
-* 异常处理
+   * 存活: 默认存活gc_maxlifetime=1440s,默认gc概率1/100 gc_probability/gc_divisor 
+   * 共享: 文件同步rsync，redis或mc存储，mysql存储
+* 异常处理 [详情](https://juejin.im/entry/5987d2ff6fb9a03c314fe732)
 * [如何 foreach 迭代对象](https://secure.php.net/manual/zh/class.iterator.php) Iterator 接口 或者 IteratorIterator 
 * [如何数组化操作对象 `$obj[key];`](https://secure.php.net/manual/zh/class.arrayaccess.php) ArrayAccess接口 或者 
 * [如何函数化对象 `$obj(123);`](http://php.net/manual/en/language.oop5.magic.php#object.invoke) __invoke()或者Closure 预定义接口
