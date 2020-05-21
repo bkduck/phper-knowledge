@@ -49,10 +49,11 @@
     * 运行时 `echo ini_get('extension_dir');`
 * 字符串、数字比较大小的原理，注意 0 开头的8进制、0x 开头16进制
     * 字符串比较大小，从左(高位)至右，逐个字符 ASCII 比较
+    * 注意字符串和数字组合比较 var_dump('10a' == 10); //true 10a转型10
 * BOM 头是什么，怎么除去
-    * `0xEF`,`0xBB`,`0xBF`（UTF8）
+    * win记事本保存默认开头`0xEF`,`0xBB`,`0xBF`（UTF8）
     * 导入含有BOM的html时，页面始终不置顶(php 当成字符串导入)
-    * [检测、去除](https://stackoverflow.com/questions/10290849/how-to-remove-multiple-utf-8-bom-sequences-before-doctype)
+    * trim($str, "\xEF\xBB\xBF");[检测、去除](https://stackoverflow.com/questions/10290849/how-to-remove-multiple-utf-8-bom-sequences-before-doctype)
 * 什么是 MVC 
 * [依赖注入实现原理](https://segmentfault.com/a/1190000010846788)
 * [如何异步执行命令](http://www.laruence.com/2008/04/14/318.html)
