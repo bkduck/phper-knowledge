@@ -57,10 +57,15 @@
 * 什么是 MVC 
 * [依赖注入实现原理](https://segmentfault.com/a/1190000010846788)
 * [如何异步执行命令](http://www.laruence.com/2008/04/14/318.html)
+  * <img src="xxx.php"> 
+  * ajax异步 但需要onload后执行
+  * 异步执行php脚本 如执行shell脚本exec() 但只能本机脚本
+  * 使用curl 但是timeout最小是1s
+  * 使用fsockopen 需要自己拼写发送内容
 * [模板引擎是什么，解决什么问题、实现原理（Smarty、Twig、Blade）](https://www.kancloud.cn/bozoyan/app/212223)
 * [如何实现链式操作 `$obj->w()->m()->d();`](https://segmentfault.com/a/1190000008159324)
-      *  __call() & call_user_func_array() 唤醒调用对象未知方法
-      *  调用的函数return $this
+  * __call() & call_user_func_array() 唤醒调用对象未知方法
+  *  调用的函数return $this
 * Xhprof 、Xdebug 性能调试工具使用
 * [索引数组 `[1, 2]` 与关联数组 `['k1'=>1, 'k2'=>2]` 有什么区别](https://www.onmpw.com/m/view.php?aid=238)
 * [缓存的使用方式、场景](https://zhuanlan.zhihu.com/p/40091810)
