@@ -57,7 +57,7 @@
 * 什么是 MVC 
 * [依赖注入实现原理](https://segmentfault.com/a/1190000010846788)
 * [如何异步执行命令](http://www.laruence.com/2008/04/14/318.html)
-  * <img src="xxx.php"> 
+  * '<img src="xxx.php">' 
   * ajax异步 但需要onload后执行
   * 异步执行php脚本 如执行shell脚本exec() 但只能本机脚本
   * 使用curl 但是timeout最小是1s
