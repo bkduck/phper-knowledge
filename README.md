@@ -57,7 +57,7 @@
 * 什么是 MVC 
 * [依赖注入实现原理](https://segmentfault.com/a/1190000010846788)
 * [如何异步执行命令](http://www.laruence.com/2008/04/14/318.html)
-  * '<img src="xxx.php">' 
+  * `<img src="xxx.php">` 
   * ajax异步 但需要onload后执行
   * 异步执行php脚本 如执行shell脚本exec() 但只能本机脚本
   * 使用curl 但是timeout最小是1s
@@ -68,6 +68,8 @@
   *  调用的函数return $this
 * Xhprof 、Xdebug 性能调试工具使用
 * [索引数组 `[1, 2]` 与关联数组 `['k1'=>1, 'k2'=>2]` 有什么区别](https://www.onmpw.com/m/view.php?aid=238)
+  * 存在覆盖的问题 $arr1 = array('one','two','three',1=>'four'); // 'one four three'
+  * 关联数组有限   $arr1 = array(1=>'four','one','two','three'); // '1=>four 2=>one 3=>two' 
 * [缓存的使用方式、场景](https://zhuanlan.zhihu.com/p/40091810)
 * [foreach 引用问题](https://www.cnblogs.com/eleven24/p/7422170.html?utm_source=debugrun&utm_medium=referral) 
 ```
@@ -83,7 +85,8 @@
 
 ## 实践篇
 * 给定二维数组，根据某个字段排序 [array_multisort() 多维数组排序](https://www.cnblogs.com/Dong-Ge/p/5583753.html)
-* 如何判断上传文件类型，如：仅允许 jpg 上传 [传送门](http://www.111cn.net/phper/21/0742a78eb9237635bd6d2b8e2a7817a9.htm)
+  * `array_multisort($field1, SORT_DESC, $field2, SORT_ASC, $data);`
+* 如何判断上传文件类型，如：仅允许 jpg 上传 [详情](http://www.111cn.net/phper/21/0742a78eb9237635bd6d2b8e2a7817a9.htm)
    ```$ext = $_FILES['file']['type']; 或者 解析文件名(explode()) ```
 * 不使用临时变量交换两个变量的值 `$a=1; $b=2;`  =>  `$a=2; $b=1;` [传送门](https://blog.csdn.net/litchi_yang/article/details/78300562)
   ``` 
@@ -96,7 +99,8 @@
       方案二 自定义函数，使用str_split()按一字节切割，然后ord()转asscii 判断字母asscii
   ```  
 * Websocket、Long-Polling、Server-Sent Events(SSE) 区别 [传送门](https://www.jianshu.com/p/4aa085b9984b) 
-* "Headers already sent" 错误是什么意思，如何避免 [避免header('xxx')之前使用echo print等输出](https://www.kancloud.cn/iyouki/how_to_interview/566636)
+* "Headers already sent" 错误是什么意思，如何避免 
+  * [避免header('xxx')之前使用echo print等输出](https://www.kancloud.cn/iyouki/how_to_interview/566636)
 
 ## 算法篇
 * 快速排序（手写）
@@ -107,13 +111,17 @@
 * LRU 缓存淘汰算法（了解，Memcached 采用该算法）
 
 ## 数据结构篇（了解）
-* 堆、栈特性
-* 队列
+* 堆、栈特性 [详细](https://www.cnblogs.com/yanlingyin/archive/2011/12/10/2283303.html)
+  * 堆 自行申请和释放空间，存放对象，空间比较大
+  * 栈 系统自动申请释放，执行程序，随函数被调用时分配的空间
+* 队列 
 * 哈希表
 * 链表
 
 ## 对比篇
 * Cookie 与 Session 区别 (深入分析区别)[https://juejin.im/entry/5766c29d6be3ff006a31b84e]
+  * cookie  存客户端 用户可见 仅支持字符串二进制 缓存时间长 服务器压力少 
+  * session 存服务端 用户不可见 支持多种数据类型 缓存时间有限 服务器压力大
 * `GET` 与 `POST` 区别 (传送门)[https://www.zhihu.com/question/28586791]
 * `include` 与 `require` 区别
 * `include_once` 与 `require_once` 区别
