@@ -146,7 +146,7 @@
     * JOIN、LEFT JOIN 、RIGHT JOIN、INNER JOIN [传送门](https://www.cnblogs.com/blueoverflow/p/4714470.html)
     * join 索引等优化 [传送门](https://www.jianshu.com/p/6864abb4d885)
     * UNION， UNION ALL 
-    * GROUP BY + COUNT + WHERE 组合案例
+    * GROUP BY + COUNT + WHERE 组合案例 [详情](https://www.shuzhiduo.com/A/KE5Q4LWjJL/)
     * [常用 MySQL 函数，如：now()、md5()、concat()、uuid()等](https://www.w3schools.com/sql/sql_ref_mysql.asp)
     * `1:1`、`1:n`、`n:n` 各自适用场景
     * 了解触发器是什么，说个使用场景 [传送门](https://blog.csdn.net/qq_32575047/article/details/80305027)
