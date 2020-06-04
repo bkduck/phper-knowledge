@@ -152,7 +152,7 @@
     * 了解触发器是什么，说个使用场景 [传送门](https://blog.csdn.net/qq_32575047/article/details/80305027)
     * 数据库优化手段
         * 索引、联合索引（命中条件）(传送门1)[https://blog.csdn.net/qq_21987433/article/details/79753551]
-        * 分库分表（`水平分表`、`垂直分表`）
+        * 分库分表（`水平分表`、`垂直分表`） (水平分表 crc32($str)%5 哈希取模)
         * (分区)[http://mysql.taobao.org/monthly/2017/11/09/]
         * 会使用 `explain` 分析 SQL 性能问题，了解各参数含义 (传送门)[https://blog.csdn.net/wangyy130/article/details/51418880]
             * 重点理解 `type`、`rows`、`key`
