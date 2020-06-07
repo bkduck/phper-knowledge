@@ -264,8 +264,15 @@
 ## 高阶篇
 * PHP 数组底层实现 （HashTable + Linked list）
 * Copy on write 原理，何时 GC
-   (手册)[http://php.net/manual/zh/features.gc.php]
-   (其余)[https://www.jianshu.com/p/d73b3ca418b0]
+   * (手册)[http://php.net/manual/zh/features.gc.php]
+   * (其余)[https://www.jianshu.com/p/d73b3ca418b0]
+   * 实例代码
+     ```
+     $a = array( 'one' );
+     $a[] =& $a;
+     unset($a);
+     ```
+   
 * PHP 进程模型，进程通讯方式，进程线程区别
   * (php 进程模型)[http://taobaofed.org/blog/2015/11/24/nodejs-php-process-manager/]
   * (php 进程通讯)[https://www.jianshu.com/p/08bcf724196b]
