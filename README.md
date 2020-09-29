@@ -8,9 +8,7 @@
 * [& 引用，结合案例分析](https://secure.php.net/manual/zh/language.references.php)
 * [== 与 === 区别](https://stackoverflow.com/questions/80646/how-do-the-php-equality-double-equals-and-identity-triple-equals-comp)
 * [isset 与 empty 区别](https://blog.csdn.net/jiaobuchong/article/details/41807011)
-  ```
-  isset=>false: var $x; $x=null;unset($x)
-  ```
+  * isset=>false: var $x; $x=null;unset($x)
 * [全部魔术函数理解](http://php.net/manual/zh/language.oop5.magic.php)
 * [超全局变量 魔术变量 魔术函数总结](http://www.cnblogs.com/wangxin-king/p/5669336.html)
 * [static、$this、self 区别](https://juejin.im/post/5af11926f265da0b9a69e80f)
@@ -35,7 +33,7 @@
 * [如何 foreach 迭代对象](https://secure.php.net/manual/zh/class.iterator.php) Iterator 接口 或者 IteratorIterator 
 * [如何数组化操作对象 `$obj[key];`](https://secure.php.net/manual/zh/class.arrayaccess.php) ArrayAccess接口 或者 
 * [如何函数化对象 `$obj(123);`](http://php.net/manual/en/language.oop5.magic.php#object.invoke) __invoke()或者Closure 预定义接口
-* yield 是什么，说个使用场景 [yield](https://www.oschina.net/translate/cooperative-multitasking-using-coroutines-in-php)
+* yield 是什么，说个使用场景 [yield](https://www.oschina.net/translate/cooperative-multitasking-using-coroutines-in-php) [鸟哥解析](https://www.laruence.com/2015/05/28/3038.html)
 * [PSR 是什么，PSR-1, 2, 4, 7](http://psr.phphub.org/)
 * 如何获取客户端 IP 和服务端 IP 地址
     * [客户端 IP](https://stackoverflow.com/questions/3003145/how-to-get-the-client-ip-address-in-php)    
